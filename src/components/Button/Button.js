@@ -6,7 +6,7 @@ import './Button.css'
 const Button = ({name, clicked}) => {
 
     return (
-        <button className='grid-item' onClick={clicked}>{name}</button>
+        <button className={'grid-item'} type={'button'} onClick={() => clicked(name)} >{name} </button>
     );
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Input = () => {
+import './Input.css'
+
+const Input = ({value}) => {
     return (
-        <input type="text" className={'value'}/>
+        <div className={'input-label'}>
+            <p className={'label'}>{value}</p>
+        </div>        
     );
 }
 

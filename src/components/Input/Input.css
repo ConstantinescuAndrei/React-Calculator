@@ -1,0 +1,23 @@
+.input-label {
+    background-color: white;
+    /* text-align: right; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-bottom: 10px;
+    height: 50px;
+    /*border-bottom: black dashed 2px; */
+
+    /* display: flex;
+    justify-content: left;
+    
+    align-items: left;
+    height: 200px;
+    border: 3px solid  */
+}
+
+.label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
